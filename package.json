@@ -1,9 +1,9 @@
 {
-  "name": "graphql-custom-types",
-  "repository": "stylesuxx/graphql-custom-types",
+  "name": "@tranduchieu/graphql-custom-types",
+  "repository": "tranduchieu/graphql-custom-types",
   "version": "0.6.0",
   "description": "Collection of custom graphql types like Email, URL, password and many more",
-  "author": "Chris Landa <stylesuxx@gmail.com>",
+  "author": "Hieu Tran <hieu.tranduc@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
