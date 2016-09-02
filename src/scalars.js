@@ -5,6 +5,20 @@ import { GraphQLCustomScalarType } from './types';
 
 const factory = new Factory();
 
+export const GraphQLMobilePhone = factory.getRegexScalar({
+  name: 'MobilePhone',
+  regex: `/^(
+          091|094|0123|0124|0125|0127|0129|088|
+          090|093|0120|0121|0122|0126|0128|089|
+          098|097|096|0169|0168|0167|0166|0165|0164|0163|0162|086|
+          092|0186|0188|
+          0199|099|0993|0994|0995|0996|
+          095
+          )\d{7}$/`,
+  description: 'The MobilePhone scalar type',
+  error: 'Query error: Not a valid MobilePhone',
+});
+
 export const GraphQLEmail = factory.getRegexScalar({
   name: 'Email',
   regex: /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i,

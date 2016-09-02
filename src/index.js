@@ -16,6 +16,7 @@ import Factory from './factory';
 module.exports = {
   Factory,
   GraphQLCustomScalarType,
+  GraphQLMobilePhone,
   GraphQLEmail,
   GraphQLURL,
   GraphQLLimitedString,
