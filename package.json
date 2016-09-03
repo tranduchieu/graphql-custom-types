@@ -1,7 +1,7 @@
 {
   "name": "@tranduchieu/graphql-custom-types",
   "repository": "tranduchieu/graphql-custom-types",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Collection of custom graphql types like Email, URL, password and many more",
   "author": "Hieu Tran <hieu.tranduc@gmail.com>",
   "license": "MIT",

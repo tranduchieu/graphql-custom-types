@@ -1,4 +1,5 @@
 import {
+  GraphQLMobilePhone,
   GraphQLEmail,
   GraphQLURL,
   GraphQLLimitedString,
